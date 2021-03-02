@@ -1,0 +1,3 @@
+recursive-include ev_sa/static *
+recursive-include ev_sa/templates *
+recursive-include ev_sa/locale *
