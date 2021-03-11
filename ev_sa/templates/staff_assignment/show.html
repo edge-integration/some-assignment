@@ -40,6 +40,10 @@
                     <b>{% trans "Instructor comment" %}</b> <%= graded.comment %><br/>
                     <% } %>
                 </p>
+            <% }else{ %>
+                <p class='imp-text'>
+                    {% trans "This assignment has not yet been graded." %}<br/>
+                </p>
             <% } %>
             <% if (annotated) { %>
                 <p>
